@@ -6,7 +6,7 @@ ENV BIND_USER=bind \
     DATA_DIR=/data
 
 RUN apt-get update \
- && DEBIAN_FRONTEND=noninteractive apt-get install -y bind9=${BIND_VERSION}* bind9-host=${BIND_VERSION}* \
+ && DEBIAN_FRONTEND=noninteractive apt-get install -y bind9 bind9-host \
  && rm -rf /var/lib/apt/lists/*
 
 COPY entrypoint.sh /sbin/entrypoint.sh
