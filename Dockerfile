@@ -2,7 +2,7 @@ FROM jouz/docker-ubuntu:latest
 MAINTAINER jose.goncalves@dlcproduction.ch
 
 ENV BIND_USER=bind \
-    BIND_VERSION=1:9.9.5 \
+    #BIND_VERSION="NotUsed..." \
     DATA_DIR=/data
 
 RUN apt-get update \
