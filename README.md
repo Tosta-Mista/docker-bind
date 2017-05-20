@@ -40,5 +40,5 @@ Pour mapper un volume vous pouvez utilisez l'argument "--volume" :
 ## Shell Access
 Pour le debogue et la maintenance vous pouvez acceder au container avec la commande suivante :
 ``` 
-docker exec -it bind bash 
+docker exec -it MyBind bash 
 ```
