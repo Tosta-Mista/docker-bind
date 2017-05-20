@@ -2,7 +2,8 @@
 
 ## Installation
 Les builds des images sont automatisé et disponible sur dockerhub.
-```docker pull jouz/docker-bind 
+```
+docker pull jouz/docker-bind 
 ```
 
 Vous pouvez également "build" l'image par vous même.
