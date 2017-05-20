@@ -14,8 +14,9 @@ docker build -t jouz/docker-bind github.com/Tosta-Mixta/docker-bind
 ## Utilisation
 Pour lancer le container :
 ```
-docker run --name MyBind -d --restart=always  --publish 53:53/tcp --publish 53:53/udp \
-    --volume /srv/docker/bind:/data jouz/docker-bind:latest
+docker run --name MyBind -d \ 
+--restart=always --publish 53:53/tcp --publish 53:53/udp \
+--volume /srv/docker/bind:/data jouz/docker-bind:latest
 ```
 
 ## Shell Access
