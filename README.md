@@ -1,12 +1,10 @@
 # Bind Server pour Docker (Ubuntu 16.04 + Bind)
 ## Introduction
-Ce build permet de monter un serveur bind sur une base Ubuntu 16.04. Il suffit ensuite de definir l'interface, afin de rendre le service disponible :
-```
---publish 53:53         # Ecoute sur toutes les interfaces
---publish 172.17.0.1    # Ecoute sur l'interface docker0
---publish 192.168.1.1   # Ecoute sur une ip a disposition sur le host
-```
+Ce build permet de mettre en place un serveur bind sur une base Ubuntu 16.04. 
 
+Disponible sur la plateforme :
+* DockerHub : https://hub.docker.com/r/jouz/docker-bind/
+* Github : https://github.com/Tosta-Mixta/docker-bind
 
 ## Installation
 Les builds des images sont automatisé et disponible sur dockerhub.
